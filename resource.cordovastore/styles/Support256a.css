@@ -1,0 +1,543 @@
+
+body.support div#mainContent,
+body.support div#mainContent p
+{
+    color: #333;
+	line-height: 24px;
+}
+
+body.support div#headerNav
+{
+    width: 100%;
+	height: 80px;
+	clear: both;
+}
+
+body.support div#headerNav h1
+{
+    float: left;
+}
+
+body.support.landingPage #bottomSections
+{
+    width: 910px;
+    padding-top: 41px;
+    clear:both;
+}
+body.support.landingPage #bottomSections > div.columns
+{
+    width: 438px;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    vertical-align: top;
+}
+
+body.support.landingPage #featuredTopics
+{
+    margin-right: 16px;
+}
+body.support.landingPage #popularTopics > ul
+{
+    list-style-type: disc;
+    margin-left: 18px; 
+	*margin-left: 0px;       
+}
+body.support.landingPage #popularTopics > ul > li
+{
+    padding-left:10px;
+    *margin-left: 18px;
+    margin-bottom: 18px;
+}
+body.support.landingPage #bottomSections > div.columns > h3
+{
+    margin-bottom: 14px;
+}
+body.support.landingPage #footerNote
+{
+    margin-top:38px;
+}
+body.support.landingPage #topics
+{
+    float: left;
+    margin-right: -20px;
+    width: 100%;
+}
+body.support.landingPage #topics > ul
+{
+    float: left;
+    clear: both;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 12px;
+}
+body.support.landingPage #topics > ul > li
+{
+    float: left;
+    width: 212px;
+    margin-left: 16px;
+}
+body.support.landingPage #topics > ul > li:first-child
+{
+    margin-left:0px;
+}
+
+body.support.landingPage #main > div > h1
+{
+    margin-bottom: 23px;
+}
+body.support.landingPage #slider
+{
+    margin-bottom: 12px;
+    height: 240px;
+}
+body.support.landingPage #slider ul
+{
+    position: relative;
+}
+body.support.landingPage #slider li
+{
+    position: absolute;
+    top: 0px;
+}
+
+body.support.topicPage #headerNav
+{
+    margin-bottom: 31px;
+}
+    
+body.support.topicPage #toc
+{
+    float: left;
+    width: 304px;
+}
+    
+body.support.topicPage #toc > ul > li
+{
+    width: 212px;
+    margin-bottom: 18px;
+}
+    
+body.support.topicPage #helpContent
+{
+    float: left;
+    width: 592px;
+}
+
+body.support.topicPage #helpContent a,
+body.support.topicPage #contentFooter a
+{
+    text-decoration: underline;
+} 
+    
+body.support.topicPage #helpContent > h2
+{
+    margin-bottom: 32px;
+}
+    
+body.support.topicPage #helpContent > #mainContent p
+{
+    margin-bottom: 21px;
+}
+    
+body.support.topicPage #helpContent > #mainContent ol
+{
+    list-style-type: decimal;
+    margin-left: 18px;
+	*margin-left: 24px;
+}
+    
+body.support.topicPage #helpContent > #mainContent ol > li
+{
+    padding-left: 14px;
+}
+    
+body.support.topicPage #helpContent > #mainContent ul
+{
+    list-style-type: disc;
+    margin-left: 14px;
+	*margin-left: 19px;
+}
+    
+body.support.topicPage #helpContent > #mainContent ul > li
+{
+    padding-left: 14px;
+    margin-bottom: 13px;
+}
+    
+body.support.topicPage .image
+{
+    margin-bottom: 29px;
+}
+    
+body.support.topicPage .caption
+{
+    /* Small Text */
+    display: block !important;
+    color: #666;
+    font: 12px/16px 'Segoe UI',Helvetica,Arial,'Sans-Serif';
+}
+
+body.support.topicPage .procedure
+{
+    margin-bottom: 47px;
+}
+
+body.support.topicPage .procedure > h3
+{
+    margin-bottom: 8px;
+
+	/* title4 styling */
+    color: #333;
+    font: 18px/25px 'Segoe UI',Helvetica,Arial,'Sans-Serif'; 
+}
+    
+body.support.topicPage .italic
+{
+    font-style: italic;
+}
+    
+body.support.topicPage .emphasis
+{
+    font-weight: bold;
+}
+    
+body.support.topicPage .inlineImage
+{
+    margin-left: 3px;
+    margin-right: 3px;
+    vertical-align: middle;
+    height: 22px;
+}
+    
+body.support.topicPage .note, 
+body.support.topicPage .tip
+{
+    padding-top: 2px;
+    padding-left: 32px;
+    margin-bottom: 10px;
+}
+    
+body.support.topicPage .note > h3, 
+body.support.topicPage .tip > h3
+{
+    margin-bottom: 5px;
+	
+	/* title5 styling */
+	color: #333;
+    font: 14px/20px 'Segoe UI',Helvetica,Arial,'Sans-Serif'; 
+}
+    
+body.support.topicPage .tip
+{
+    background-image: url("../images/support/tip.png");
+    background-repeat: no-repeat;
+    background-position: 0 3px;
+}
+    
+body.support.topicPage .note
+{
+    background-image: url("../images/support/note.png");
+    background-repeat: no-repeat;
+    background-position: 0 3px;
+}
+
+body.support.topicPage #helpContent .question > a
+{
+	cursor: pointer;
+    text-decoration: none;
+}
+
+body.support.topicPage #helpContent .question > a .questionText
+{
+	cursor: pointer;
+	display: inline-block; 
+	margin-left: 3px;
+	max-width: 560px; 
+    text-decoration: underline;
+}
+
+body.support.topicPage #helpContent .question > a span.arrow 
+{
+	cursor: pointer;
+	display: inline-block;
+    text-decoration: none;
+	vertical-align: top;
+}
+
+body[class*=rtl] body.support.topicPage .tip,
+body[class*=rtl] body.support.topicPage .note
+{
+    background-position: 100% 3px;
+}
+    
+body.support.topicPage #helpContent > #mainContent ul.faqList
+{
+    list-style-type: none;
+    margin-left: 0px;
+}
+body.support.topicPage #helpContent > #mainContent ul.faqList > li
+{
+    padding-left: 0px;
+}
+/*** tables ***/
+body.support.topicPage #mainContent table
+{
+    border: thin #CCC solid;
+    margin-bottom: 14px;
+    width: 100%;
+    border-collapse: collapse;
+}
+    
+body.support.topicPage #mainContent table > thead
+{
+    background-color: #E3E3E3;
+    height: 31px;
+    color: black;
+    line-height: 19px;
+    font-size: 14px;
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+    
+body.support.topicPage #mainContent table tr
+{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+    
+body.support.topicPage #mainContent table td
+{
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+    
+body.support.topicPage #helpContent > #mainContent table td > p
+{
+    margin-bottom: 0px;
+}
+    
+body.support.topicPage #mainContent table > tbody td
+{
+    border: thin #CCC solid;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 21px;
+    padding-bottom: 13px;
+    color: #333;
+    vertical-align: top;
+}
+/*** related topics ***/
+body.support.topicPage #mainContent > ul
+{
+    list-style-type: disc;
+    margin-left: 14px;
+}
+body.support.topicPage #mainContent > ul > li
+{
+    padding-left: 14px;
+    margin-bottom: 13px;
+}
+body.support.topicPage #feedback
+{
+    margin-top: 32px;
+}
+    
+body.support.topicPage #feedbackComment,
+body.support.topicPage #feedbackSuccess
+{
+    display: none;
+}
+body.support.topicPage #feedbackComment textarea
+{
+    width: 572px;
+    height: 64px;
+}
+
+body.support.topicPage #feedbackComment > iframe
+{
+    height: 140px;
+    width: 100%;
+	border: none;
+	scrolling: no;
+}
+
+body.support.topicPage #feedbackRating > ul > li
+{
+    float: left;
+    margin-right: 10px;
+}
+body.support.topicPage .inlineVideoPlayer
+{
+    margin-bottom:15px;
+}
+body.support.topicPage .inlineVideoPlayerFull
+{
+    z-index: 300;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+body.support.topicPage div#contentFooter
+{
+    float: left;
+	margin-top: 38px;
+}
+
+/* begin: mac address */
+body.macAddressPage p > a, #captchaOptions a
+{
+    color: #666;
+}
+body.macAddressPage p > a
+{
+    text-decoration: underline;
+}
+    
+body.macAddressPage #content
+{
+    width: 516px;
+}
+        
+body.macAddressPage #macAddressForm
+{
+    margin-top: 43px;
+    margin-bottom: 52px;
+    width: 295px;
+}
+    
+body.macAddressPage #MacAddress, #UserSolution
+{
+    width: 288px;
+    margin-top: 16px;
+    margin-bottom: 1px;
+    padding: 2px 2px 2px 2px;
+}
+    
+body.macAddressPage #UserSolution
+{
+    margin-top: 15px;
+}
+    
+body.macAddressPage #captchaOptions
+{
+    margin-top: 33px;
+}
+    
+body.macAddressPage .field-validation-error
+{
+    color: #f47300;
+}
+    
+body.macAddressPage #captchaContainer
+{
+    height: 61px;
+    width: 244px;
+    border: 1px solid #DEDEDE;
+    margin-top: 39px;
+    float: left;
+	overflow: hidden;
+}
+    
+body.macAddressPage #captchaImage > img
+{
+    margin-top: 6px;
+    margin-left: 9px;
+}
+    
+body.macAddressPage #captchaAudio img
+{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+    
+body.macAddressPage #captchaOptions
+{
+    float: right;
+    width: 30px;
+}
+    
+body.macAddressPage #macAddressSubmit
+{
+    height: 38px;
+    margin-right: 13px;
+    margin-top: 32px;
+    border: 0px;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+	font: 28px/36px 'Segoe UI Light',Helvetica,Arial,'Sans-Serif';
+}
+    
+body.macAddressPage #masthead
+{
+    margin-bottom: -5px;
+}
+    
+body.macAddressPage #errorContent h1
+{
+    margin-bottom: -6px;
+}
+    
+body.macAddressPage .primaryAction
+{
+    color: #1ba1e2;
+}
+    
+body.macAddressPage #disclaimer
+{
+    margin-top: 32px;
+    width: 516px;
+}
+    
+body.macAddressPage #macAddressSubmit.disabled
+{
+    color: #999999;
+}
+    
+body.macAddressPage #captchaInput .placeholder
+{
+    color: #999999;
+}
+
+body.macAddressPage #hipHolder img
+{
+    position: relative;
+	left: +8px;
+	*top: +4px;
+}
+
+body.macAddressPage #hipHolder a.cssWLSPHIPAudio
+{
+    *top: 8px;
+    left: 100px;
+	position: relative;
+	background-image: url("../images/captcha_playicon.png");
+    background-repeat: no-repeat;
+	height: 40px;
+	width: 41px;
+	cursor:pointer;
+	cursor:hand;
+}
+
+body.macAddressPage #hipHolder a.cssWLSPHIPAudio:hover 
+{
+    background-position: 0px 0px;
+}
+
+body.macAddressPage #hipHolder iframe,
+body.macAddressPage #hipMenu
+{
+    display: none;
+}
+    
+/* end: mac address */
+

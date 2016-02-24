@@ -1,0 +1,460 @@
+
+/*** phones page ***/
+body.phonesPage #hero
+{
+        height: 390px;
+        width: 896px;
+        background-color: #eee;
+        overflow: hidden;
+		margin-bottom: 40px;
+}
+
+body.phonesPage #hero > img
+{
+    height: 390px;
+    width: 511px;
+    float: right;
+}
+
+body.phonesPage #hero > #heroText
+{
+	float: left;
+	margin-left: 30px;
+	margin-top: 70px;
+	width: 327px;
+}
+
+body.phonesPage #hero > #heroText > a.brand:hover
+{
+    color: #000 !important;
+}
+
+body.phonesPage div.title1
+{
+    color: #777;
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 17px;
+}
+
+body.phonesPage ul.phones
+{
+    margin-bottom: 97px;
+}
+
+body.phonesPage ul.phones > li
+{
+    margin-top: 32px;
+    clear: both;
+    overflow: hidden;
+}
+    
+body.phonesPage ul.phones > li:first-child
+{
+    margin-top: 0;
+}
+
+body.phonesPage ul.phones > li > h2
+{
+    margin: 18px 0 20px 0;
+}
+
+body.phonesPage ul.phones > li > .error
+{
+    color: #f47300;
+    margin: 18px 0 30px 0;
+}
+
+body.phonesPage ul.phones > li > ul > li
+{
+    float: left;
+}
+
+body.phonesPage li.phoneImage > a > img
+{
+    height: 280px;
+    width: 280px;
+    margin-top: 4px;
+    margin-left: 0px;
+    border-width: 0px;
+}
+
+body.phonesPage li.valueProp
+{
+    width: 280px;
+    margin-left: 21px;
+}
+    
+body.phonesPage li.valueProp.single
+{
+    width: 442px;
+}
+
+body.phonesPage li.carrier
+{
+    margin-left: 28px;
+    width: 125px;
+}
+
+body.phonesPage li.carrier li
+{
+    margin-bottom: 5px;
+}
+
+body.phonesPage li.carrier .error,
+body.phonesPage p.error
+{
+    color: #f47300;
+}
+        
+body.phonesPage li.compare
+{
+    margin-left: 15px;
+    width: 147px;
+}
+    
+body.phonesPage li.compare > input[type="button"].checkbox
+{
+    vertical-align: middle;
+    margin-right: 19px;
+}
+
+body.phonesPage li.compare > input[type="submit"]
+{
+	width: 100px;
+    height: 30px;
+    font: 12px/16px 'Segoe UI',Helvetica,Arial,'Sans-Serif';
+    overflow: hidden;
+    padding: 0;
+}
+
+body.phonesPage li.details
+{
+    margin-left: 15px;
+    width: 140px;
+}
+
+body.phonesPage li.details > div.button5
+{
+    width: 100%;
+    height: 30px;
+    font: 12px/16px 'Segoe UI',Helvetica,Arial,'Sans-Serif';
+    overflow: hidden;
+    padding: 0;
+}
+
+/*** compare page ***/
+body.comparePage table > tbody > tr
+{
+    border-top: 1px solid #CCCCCC;
+}
+    
+body.comparePage table > thead > tr
+{
+    border-top: 0px solid transparent;
+}
+
+body.comparePage td, 
+body.comparePage th
+{
+    vertical-align: top;
+    width: 204px;
+}
+
+body.comparePage th
+{
+    padding-bottom: 29px;
+}
+
+body.comparePage td
+{
+    padding-top: 15px;
+    padding-bottom: 44px;
+}
+            
+body.comparePage table.threeColumn td, 
+body.comparePage table.threeColumn th
+{
+    padding-left: 28px;
+}
+    
+body.comparePage table.twoColumn td, 
+body.comparePage table.twoColumn th
+{
+    padding-left: 105px;
+}
+
+body.comparePage table td.labels
+{
+	padding-left: 0;
+}
+
+body.comparePage th > a > img
+{
+	display: block;
+    width: 160px;
+    margin-bottom: 9px;
+}
+
+body.comparePage td ul
+{
+	float: left;
+}
+
+body.comparePage td ul li
+{
+	margin-bottom: 5px;
+}
+
+body.comparePage table .error
+{
+    color: #f47300;
+}
+
+
+/*** details page ***/
+body.detailsPage h1
+{
+    float:left;
+}
+
+body.detailsPage #hero
+{
+    height: 390px;
+    width: 896px;
+    margin-bottom: 28px;
+    overflow: hidden;
+}
+    
+body.detailsPage #hero > img
+{
+    height: 390px;
+    width: 511px;
+    float: left;
+}
+
+body.detailsPage #hero > #heroText
+{
+	float: right;
+    margin-top: 55px;
+	width: 329px;
+    padding-right: 28px;
+}
+
+body.detailsPage #hero > #heroText > h2
+{
+    margin-bottom: 40px;
+}
+
+body.detailsPage #highlights
+{
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+body.detailsPage ul#highlights > li
+{
+    width: 280px;
+    margin-left: 28px;
+    float: left;
+}
+
+body.detailsPage ul#highlights > li:first-child
+{
+    margin-left: 0px;
+}
+    
+body.detailsPage ul#highlights > li > p
+{
+	overflow: hidden;
+	max-height: 80px;
+}
+
+body.detailsPage ul.specs
+{
+	float: left;
+    margin-top: 27px;
+    clear: both;
+    overflow: hidden;
+    width: 924px;
+}
+
+body.detailsPage ul.additional.specs
+{
+    margin-top: 56px;
+}
+
+body.detailsPage ul.specs > li
+{
+    width: 178px;
+    margin-right: 53px;
+    float: left;
+}
+
+body.detailsPage ul.specs > li > ul
+{
+	float: left;
+}
+
+body.detailsPage ul.specs > li > ul > li
+{
+	margin-top: 4px;
+}
+            
+body.detailsPage ul.specs > li > div > div.icon
+{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 8px;
+}
+
+li#display div.icon { background-position: 0px -50px; }
+li#processor div.icon { background-position: -50px -50px; }
+li#camera div.icon { background-position: -100px -50px; }
+li#battery div.icon { background-position: 0px -100px; }
+li#network div.icon { background-position: -50px -100px; }
+li#storage div.icon { background-position: -100px -100px; }
+li#software div.icon { background-position: 0px -200px; }
+
+body.detailsPage ul#carrier
+{
+    clear: both;
+    padding-top: 72px;
+}
+
+body.detailsPage ul#carrier > li
+{
+    float: left;
+    margin-right: 28px;
+    margin-top: 28px;
+}
+
+body.detailsPage ul#carrier > li > img
+{
+    max-height: 50px;
+    max-width: 200px;
+}
+
+#buyNow
+{
+	float:right;
+    position: relative;
+	margin-top:10px;
+}
+
+#buyNow > img
+{
+    height: 30px;
+    vertical-align: top;
+    margin-right:28px;
+}
+
+#buyNow > .button5
+{
+    height: 27px;
+    padding: 3px 20px 0px;
+    display: inline-block;
+}
+
+#buyNow > .button5.multiple
+{
+    margin-right: 33px;
+}
+
+
+#buyNow > .droparrow
+{
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 40px;
+    width: 31px;
+    vertical-align: top;
+    background-position: 0px -150px;
+    z-index: 105;
+    cursor: pointer;
+}
+
+#buyNow > .droparrow.hover
+{
+    background-position: -35px -150px;
+}
+
+#buyNow .dropmenu
+{
+	position: absolute;
+	right: 0;
+	top: 0;
+	max-width: 385px;
+	z-index: 100;
+	overflow: hidden;
+    border: 1px solid #000;
+    margin-top: 39px;
+    padding: 16px 0px 17px 0px;
+    background-color: #fff;
+    display: none;
+}
+
+#buyNow .dropmenu.visible
+{
+	height: auto;
+}
+
+#buyNow .dropmenu > li
+{
+    margin: 0px 20px;
+    white-space:nowrap;
+}
+
+#buyNow .dropmenu > li a:hover,
+#buyNow .dropmenu > li a:focus,
+#buyNow .dropmenu > li a:active
+{
+	color: #000 !important;
+}
+
+#buyNow .dropmenu > li.title5
+{
+	margin-bottom: 11px;
+}
+
+#buyNow .dropmenu > li.hr
+{
+	margin: 15px 0 17px 0;
+    height: 1px;
+}
+
+#buyNow .dropmenu > li > a.buyLink
+{
+    float: right;
+    margin-left: 28px;
+}
+
+#buyNow .dropmenu > li > a.buyLink > span.arrow
+{
+    margin-left:5px;
+    height: 16px;
+    width: 16px;
+    background-position: 0px -150px;
+}
+
+#buyNow .dropmenu .menuitem
+{
+	
+}
+
+#buyNow .dropmenu.visible
+{
+	background-color: #fff;
+	top: -16px;
+	right: -21px;
+	border: 1px solid #000;
+	padding: 15px 20px;
+}
+
+#buyNow .dropmenu.visible .menuitem
+{
+	display: block;
+}
+

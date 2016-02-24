@@ -1,0 +1,116 @@
+﻿@import URL(../../../../css/gcs.css);
+
+body { margin:0;padding:1.3em 1.5em 1.5em; }
+.g-doc { max-width:1000px; }
+.g-doc-800 { width:750px; }
+.header { margin:0 0 .6em -.2em;padding:0;position:relative; }
+.header img.logo { float:left;height:40px; }
+.header p { padding:.7em 0 0;text-align:right; }
+.nav ul { list-style:none;margin:0 2em 0 0;padding:0; }
+.nav li { font-weight:bold;line-height:normal;padding-bottom:1em; }
+.nav li a { font-weight:normal; }
+.nav li.divider { border-top:1px solid #999;line-height:normal;padding-top:1em; }
+.nav li.indent { padding:0 0 1em 1em; }
+.footer p { border:none;margin:3em 0 0;text-align:center; }
+h1, h2 { padding-bottom:.5em; }
+.small { font-size:1em; }
+.disclaimer { color:#666; }
+.box-out, .box-in { display:block; }
+.box-out { border:1px solid #93b4d9;margin:0 1px 1em; }
+.box-in { background:#fff;border:1px solid #93b4d9;border-width:0 1px;margin:0 -2px;padding:1em; }
+
+.features-3blurbs .allfeatures { list-style:none; padding-left:0; float:left; clear:both; margin:-.5em 0 0; }
+.features-3blurbs .allfeatures li { clear:both; margin:2em 0 0; float:left; width:100%}
+.features-3blurbs .allfeatures h3 { padding-bottom:.8em; font-size:1.2em }
+.features-3blurbs .subtitle { font-weight:bold; padding-bottom:.7em }
+.features-3blurbs .allfeatures .side {  float:left; margin:0; width:312px; height:157px; }
+.features-3blurbs .allfeatures .video { width:310px; height:257px; border:1px solid #e4e4e4  }
+.features-3blurbs .allfeatures .novideo { width:310px; height:257px; }
+.welcome .allfeatures .video { border:0 }
+.features-3blurbs .allfeatures .details { margin-left:350px; }
+.features-3blurbs .allfeatures ul { list-style:disc; padding-left:1.8em;  }
+.features-3blurbs .allfeatures ul li { line-height:1.3em;  margin:0 0 .1em; float:none; clear:none; width:auto}
+.features-3blurbs .separator {  clear:left; margin:0 0 0; padding:1em 0 0 }
+.features-3blurbs .dl { margin-top:1em }
+.welcome .g-section { clear:left }
+.features-3blurbs .more-info {  padding-top:1em; clear:both}
+.features-3blurbs .col { float:left; margin:0 6% 0 0;width:43%; }
+.features-3blurbs .col img { border:1px solid #ccc; }
+.features-3blurbs .more-info3 .col { float:left;margin:0 3% 0 0; width:28%; padding:.85em; background:#e9f0f7; border:1px solid #c6dcf6; min-height:270px; }
+.features-3blurbs .more-info3 .last { margin:0 0 0 0; }
+.features-3blurbs .more-info3 .col img { border:1px solid #c9d7f1 }
+
+.features .features-list ul { list-style:none;margin:0;padding:0; }
+.features .features-list ul li { border-top:1px solid #fff;height:auto !important;height:50px;line-height:normal;margin:0;min-height:50px;padding:0 0 1.5em; }
+.features .features-list ul li h3 { font-size:1em;margin:0 0 0 62px;padding:0; }
+.features .features-list li img.icon { border:1px solid #ccc;float:left;margin:0 10px 0 0; }
+.features .features-list li p { margin:0 0 0 62px;padding:0; }
+.features .blog-feed { margin:0 0 1em 2em; }
+.features .blog-feed .indv-post { margin:0 0 1.5em; }
+.features .blog-feed h3 { font-size:1em;margin:0;padding:0; }
+.features .blog-feed .indv-post p { margin:0;padding:0; }
+.features .blog-feed .post-title { font-weight:bold; }
+.features .blog-feed .post-date { color:#666;font-size:.85em; }
+
+.features .blog-feed h2 { font-size:1em;margin:0;padding:0; }
+.features .features-list ul li h2 { font-size:1em;margin:0 0 0 62px;padding:0; }
+
+
+.mac img.right { float:right; }
+
+.privacy h1 strong { color:#c00 }
+.privacy .content ul { padding:0 0 0 2em; }
+.privacy .content li { line-height:normal;list-style:disc;padding:0 0 1em; }
+
+
+.webmasters .content ul { list-style:none;margin:0;padding:0; }
+.webmasters .content li { line-height:normal;margin:0;padding:0 0 1em 10px; }
+.webmasters .content li img { margin:0 .5em 0 0; }
+
+.webmasters-faq .content li { line-height:normal;margin:0 0 0 1em;padding:0; }
+.webmasters-faq code,.webmasters-faq pre { color:#007000;font-family:"Courier New",Courier,monospace;font-size:1em; }
+.webmasters-faq pre { background-color:#fafafa;border:1px solid #bbb;line-height:125%;margin:1em 0;padding:.99em;word-wrap:break-word; }
+.webmasters-faq table { margin:0 0 1em; }
+.webmasters-faq th { text-align:center; }
+.webmasters-faq th, .webmasters-faq td { border:1px solid #999;padding:.5em; }
+
+
+ul.tabs  { float:left;list-style:none;margin:0;padding:15px 0 0;width:181px; }
+ul.tabs li { border-bottom:1px solid #fff;border-right:1px solid #93b4d9;line-height:normal;margin:5px 0;padding:0; }
+ul.tabs li a .box-out { border-color:#fff;border-width:1px 0 1px 1px;margin-right:0; }
+ul.tabs li a .box-in { border-color:#fff;border-width:0 0 0 1px;margin:0 0 0 -2px;padding:4px 10px 4px 6px; }
+ul.tabs li a { cursor:pointer;display:block; }
+ul.tabs li a, ul.tabs li a:visited { color:#00c; }
+ul.tabs li a.selected { color:#333;font-weight:bold;text-decoration:none; }
+ul.tabs li a.selected .box-in { background-color:#c3d9ff;border-color:#93b4d9; }
+ul.tabs li a.selected .box-out { border-color:#93b4d9; }
+ul.tabs li a.last { font-weight:bold;padding:4px 10px 4px 6px; }
+div.tab-content { display:none;margin-left:180px;text-align:center; }
+div.tab-content .box-in { padding:1em 5em; }
+div.tab-content p { text-align:left; }
+#tab1 { display:block; }
+
+.features2 ul.tabs li { margin:0; }
+.features2 ul.tabs li a .box-out { margin-bottom:0; }
+.features2 ul.tabs li a.last { margin-top:1em; }
+
+.features2 .col { float:left;margin:0 5% 0 0;width:45%; }
+.features2 .col img { border:1px solid #ccc; }
+.features2 .more-info3 .col { float:left;margin:0 3% 0 0;width:30%; }
+.promo { background:#ffffd9;border:1px solid #d2d26a;margin:0 0 1.5em;padding:.8em; }
+
+.welcome .footer p { border:none; }
+
+.eula-dev iframe { background-color:#fff;border:1px solid #999;height:200px;margin:0 0 1em;width:600px; }
+.eula-dev .dl-btn { font-weight:bold; }
+
+
+.warning { background:#ffffd9;border:1px solid #d2d26a;display:none;margin:0 0 1.5em;padding:.5em;text-align:center; }
+
+.welcomeback .blurbs h2 { font-size:1.3em;padding:0;color:#000 }
+.welcomeback .blurbs ul { margin:.5em 2em 1em 0;padding:0;list-style:none }
+.welcomeback .blurbs li { line-height:normal;margin:0;min-height:121px;padding:0 0 1.5em; }
+.welcomeback .blurbs li img { float:left;margin:0 12px 0 0 }
+.welcomeback .blurbs li h2, .welcomeback .blurbs li p { margin:0 0 0 310px;padding:0; }
+.welcomeback .blurbs li h2 { padding-top:2em }
+.welcomeback .blurbs li p b { font-size:1.3em; }

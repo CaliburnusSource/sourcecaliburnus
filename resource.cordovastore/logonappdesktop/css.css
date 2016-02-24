@@ -1,0 +1,79 @@
+html, body							{ height:100% !important; min-height:100%; }
+body, form							{ padding:0; margin:0; }
+body								{ background:#E1E5E8; }
+div, input, textarea, select		{ position:relative; font-family:arial; font-size:12px; color:#737373; }
+input, textarea, select				{ font-size:12px; color:#000; font-family:arial; border:1px solid #7F9DB9; vertical-align:middle; background:#fff; margin:0; }
+
+a									{ color:#fff; outline:none; text-decoration:none; }
+a:hover								{ color:#EDEDED; text-decoration:underline; }
+h1, h2, h3, h4, h5					{ margin:0; padding:0; font-weight:normal; }
+
+#start					{ width:100%; min-width:1003px; min-height:600px; height:100%; }
+#bef-main				{ width:100%; min-height:100%; overflow:hidden; }
+#main					{ width:100%; height:509px; position:absolute; margin:0 auto; top:50%; }
+.borders				{ padding:10px; background:url(http://resource.cordovastore.com.ar/logonappdesktop/images/borders.png) no-repeat; width:955px; height:509px; top:-50%; margin:0 auto; }
+.picture				{ background-repeat: no-repeat; width:955px; height:509px; overflow:auto; background-position:center center;}
+.form					{ width:310px; height:320px; background:url(http://resource.cordovastore.com.ar/logonappdesktop/images/form.png) no-repeat; margin:100px auto 0 auto; overflow:auto; }
+.form .logo				{ height:58px; margin:23px auto 43px; text-align: center; }
+.form table				{ border-collapse:collapse; width: 100%; }
+.form td				{ padding:10px 0 10px 0px; font-size:14px; font-weight:bold; color:#010101; }
+.form input				{ padding:1px 5px 2px 5px; }
+.form input.txt			{ width:180px; }
+.form select			{ width:192px;  }
+
+.form span.but			{ background:url(http://resource.cordovastore.com.ar/logonappdesktop/images/button-2.png) 100% 0 no-repeat; padding:0 5px 0 0; display:inline-block; }
+.form span.but button	{ background:url(http://resource.cordovastore.com.ar/logonappdesktop/images/button-1.png) no-repeat; color:#fff; border:0; height:31px; padding:0 10px 0 15px; margin:0 0 0 10px;}
+
+form { padding: 0 10px;}
+
+.tac { text-align: center;}
+.tar { text-align: right;}
+.tal { text-align: left;}
+
+#foot					{ width:955px; text-align:right; margin:0 auto; padding-top:13px; }
+
+ul.errors               { list-style-type: none; padding:0; margin:0; font-size: 0.7em;}
+
+div.msg a.close { display: none;}
+div.msg h5 { font-size: 15px; font-weight: bold; color: #000; }
+
+div.form .info h3,
+div.form .error h3,
+div.form .success h3,
+div.form .info p,
+div.form .error p,
+div.form .success p
+{
+    margin: 0 10px;
+    color: red;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+
+.jGrowl-notification .message {
+    text-align:left;;
+    font-size:0.95em;
+    padding-left:36px;
+    height:48px;
+}
+
+#jGrowl div.jGrowl-error {
+    background-color:#fccac2;
+}
+
+#jGrowl div.jGrowl-error .message {
+    color:#ac260f;
+    background:transparent url('http://resource.cordovastore.com.ar/logonappdesktop/images/exclamation.png') top left no-repeat;
+    position:relative;
+}
+
+#jGrowl div.jGrowl-success .message {
+    color:#3c5a01;
+    background:transparent url('http://resource.cordovastore.com.ar/logonappdesktop/images/accept.png') top left no-repeat;
+    position:relative;
+}
+
+#jGrowl div.jGrowl-success {
+    background-color:#efffb9;
+}

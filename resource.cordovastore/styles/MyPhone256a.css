@@ -1,0 +1,942 @@
+
+h1
+{
+    margin-bottom: 20px
+}
+
+.overlay p,
+body.findPage #smsSetup label
+{
+    color: #fff;
+}
+
+body.findPage #disclaimer input.checkbox 
+{
+    margin-right: 9px;
+    text-align: left;
+    display: block;
+    float: left;
+}
+
+body.findPage #disclaimerText 
+{
+	cursor: pointer;
+    display: block;
+    float: left;
+    margin-bottom: 16px;
+	width: 390px;
+}
+
+/* Begin No Phone */
+body.noPhonePage h1
+{
+    margin-bottom: 32px; 
+}
+
+body.noPhonePage .container
+{
+    overflow: hidden;
+}
+
+body.noPhonePage .container > div
+{
+    float: left;
+    width: 284px;
+}
+
+body.noPhonePage .container .logo
+{
+    float: left;
+}
+
+body.noPhonePage .container .icon
+{
+    float: right;
+}
+
+body.noPhonePage #set1 a
+{
+    display: block;
+    margin-top: 14px;
+}
+
+body.noPhonePage #set1 p
+{
+    display: block;
+    margin-top: 9px;
+}
+
+body.noPhonePage #set2
+{
+    margin-top: 56px;
+}
+
+body.noPhonePage #find,
+body.noPhonePage #photos,
+body.noPhonePage #xbox,
+body.noPhonePage #office
+{
+    margin-right: 20px;
+}
+
+body.noPhonePage #xbox p
+{
+    clear: left;
+    padding-top: 18px;
+    width: 167px;
+}
+
+body.noPhonePage #xbox .icon
+{
+    margin-right: 40px;
+}
+
+body.noPhonePage #office .icon
+{
+    margin-top: 42px;
+    margin-right: 30px;
+}
+
+body.noPhonePage #office p
+{
+    clear: left;
+    padding-top: 14px;
+    width: 167px;
+}
+
+body.noPhonePage #acquire > a.get
+{
+    color: #fff;
+    display: block;
+    float: left;
+    padding: 8px 7px 8px 11px;
+}
+
+body.noPhonePage #acquire > a.get:hover
+{
+    color: #fff !important;
+}
+
+body.noPhonePage #acquire > a.get > img
+{
+    vertical-align: top;
+    margin-left: 8px;
+}
+
+body.noPhonePage #acquire p
+{
+    clear: left;
+    padding-top: 25px;
+}
+/* End No Phone */
+
+/* Begin MyPhone */
+body.myPhonePage .fullPanel
+{
+    width: 596px;
+    position: relative;
+}
+
+body.myPhonePage .fullPanel > div
+{
+    float: left;
+    width: 167px;
+}
+
+body.myPhonePage .halfPanel
+{
+    width: 288px;
+    height: 229px;
+    position: relative;
+}
+
+body.myPhonePage #xbox
+{
+    float: left;
+    margin-right: 16px;
+}
+
+body.myPhonePage #xbox > .logo
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+        
+body.myPhonePage #xbox > .gamerCard,
+body.myPhonePage #xbox > .oobe,
+body.myPhonePage #xbox > .error
+{
+    position: absolute;
+    top: 51px;
+    left: 0px;
+    width: 288px;
+    height: 145px;
+}
+
+body.myPhonePage #xbox > .oobe,
+body.myPhonePage #xbox > .error
+{
+    background-image: url(/images/Xbox_BG.jpg);
+    padding-left: 14px;
+    margin-right: 14px;
+    width: 274px;
+    z-index: 0;
+}
+
+body.myPhonePage #xbox > .oobe > img,
+body.myPhonePage #xbox > .error > img
+{
+    position: absolute;
+    right: 32px;
+    bottom: 9px;
+}
+
+body.myPhonePage #xbox > .oobe > p,
+body.myPhonePage #xbox > .oobe > a,
+body.myPhonePage #xbox > .error > p
+{
+    max-width: 160px;
+}
+
+body.myPhonePage #xbox > .oobe > p,
+body.myPhonePage #xbox > .error > p
+{
+    margin-top: 10px;
+}
+
+body.myPhonePage #xbox > .oobe > a.create
+{
+    margin-top: -1px;
+    display: block;
+}
+
+body.myPhonePage #xbox > .oobe > a.learn
+{
+    margin-top: 8px;
+    float: left;
+}
+
+body.myPhonePage #xbox > .gamerCard
+{
+    background: #ebebeb url('../images/Xbox_BG.jpg') no-repeat;
+}
+        
+body.myPhonePage #xbox > ul
+{
+    position: absolute;
+    bottom: 0px;
+}
+        
+body.myPhonePage #xbox > ul > li
+{
+    display: inline;
+    margin-right: 8px;
+    vertical-align: top;
+}
+        
+body.myPhonePage #xbox > .gamerCard > ul
+{
+    position: absolute;
+    top: 36px;
+    left: 15px;
+}
+        
+body.myPhonePage #xbox > .avatar
+{
+    position: absolute;
+    right: 5px;
+    bottom: 24px;
+    height: 235px;
+    z-index: 2;
+}
+        
+body.myPhonePage #xbox > .shadow
+{
+    position: absolute;
+    right: 23px;
+    bottom: 16px; 
+    z-index: 1;
+}
+        
+body.myPhonePage #xbox .gamerTag
+{
+    position: absolute;
+    left: 15px;
+    top: 10px;
+}
+        
+body.myPhonePage #xbox .member
+{
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
+}
+
+body.myPhonePage #xbox .score img
+{
+    position: relative;
+    top: -2px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+body.myPhonePage #xbox .member .info .level,
+body.myPhonePage #xbox .member .info .score 
+{
+    position: relative;
+    top: 2px;
+}
+
+body.myPhonePage #office
+{
+    float: left;
+}
+
+body.myPhonePage #office > .products
+{
+    background-color: #ebebeb;
+    position: absolute;    
+    top: 51px;
+    left: 0px;
+    width: 285px;
+    height: 145px;
+}
+
+body.myPhonePage #office > .products > p
+{
+    margin: 8px 14px;
+}
+
+body.myPhonePage #office > .products > img
+{
+    position: absolute;
+    left: 14px;
+    bottom: 13px;
+}
+
+body.myPhonePage #hotmail
+{
+    clear: both;
+    border-top: 45px solid transparent;
+    overflow: hidden;
+    position: relative;
+}
+
+body.myPhonePage #hotmail > div
+{
+    margin-top: 17px;
+}
+
+body.myPhonePage #hotmail > div > h4
+{
+    margin-bottom: 8px;
+}
+
+body.myPhonePage #hotmail > div > p
+{
+    margin-bottom: 5px;
+}
+
+body.myPhonePage #hotmail > #contacts,
+body.myPhonePage #hotmail > #calendar,
+body.myPhonePage #targeted > #xboxMembership
+{
+    margin-right: 30px;
+}
+
+body.myPhonePage #hotmail > #contacts > p,
+body.myPhonePage #hotmail > #calendar > p,
+body.myPhonePage #hotmail > #inbox > p
+{
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+body.myPhonePage #targeted > #xboxMembership > p,
+body.myPhonePage #targeted > #zuneClient > p
+{
+    margin-top: -3px;
+    margin-bottom: -2px;
+}
+
+
+body.myPhonePage #targeted
+{
+    border-top: 70px solid transparent;
+}
+
+body.myPhonePage #targeted > div > h4
+{
+    margin-bottom: 3px;
+}
+
+body.myPhonePage #photos 
+{
+    margin-bottom: 40px;
+}
+
+body.myPhonePage #photos > h3
+{
+    margin-bottom: 23px;
+}
+
+body.myPhonePage #photos > div > table
+{
+    table-layout: fixed;
+    width: 100%;
+}
+        
+body.myPhonePage #photos > div
+{
+    margin-bottom: 5px;
+}
+
+body.myPhonePage #photos td
+{
+    vertical-align: top;
+    width: 71px;
+    height: 71px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+}
+                
+body.myPhonePage #photos td a
+{
+    background-color: #ebebeb;
+    display: block;
+    width: 71px;
+    height: 71px;
+}
+
+body.myPhonePage #photos td img 
+{
+    display: block;
+}
+        
+body.myPhonePage #photos a.video
+{
+    position: relative;
+    overflow: hidden;
+}
+        
+body.myPhonePage #photos a.video img.overlay
+{
+    position: absolute;   
+    top: 17px;
+    left: 17px;
+    z-index: 1;
+}
+        
+body.myPhonePage #photos img.thumbnail
+{
+    width: 71px;
+    height: 71px;
+}
+
+body.myPhonePage #photos div.oobe
+{
+    position: relative;
+    overflow: hidden;
+    width: 588px;
+    height: 145px;
+}
+
+body.myPhonePage #photos > div.oobe > div
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    filter: alpha(opacity=75);
+    opacity: .75;
+}
+
+body.myPhonePage #photos > div.oobe > img
+{
+    position: absolute;
+    z-index: 2;
+    left: 8px;
+    bottom: 0px;
+}
+
+body.myPhonePage #photos > div.oobe > h4
+{
+    position: absolute;
+    left: 114px;
+    top: 16px;
+    max-width: 464px;
+    z-index: 2;
+    height: 76px;
+    overflow: hidden;
+}
+
+body.myPhonePage #photos > div.oobe > a
+{
+    color:#ffffff;
+    position: absolute;
+    left: 115px;
+    top: 106px;
+    max-width: 439px;
+    z-index: 2;
+}
+
+body.myPhonePage #LocationSummary
+{
+	clear: left;
+	width: 212px;
+}
+
+body.myPhonePage #MapWithLocation,
+body.myPhonePage #NoLocationMap
+{
+    clear: both;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 6px;
+    height: 71px;
+    width: 212px;
+    position: relative;
+}
+
+body.myPhonePage #MapWithLocation > a
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+body.myPhonePage #LocationPinpoint
+{
+    margin-left: 93px;
+    margin-top: 23px;
+    z-index: 1;
+}
+
+body.myPhonePage #MapLabel
+{
+    color: #fff;
+    left: 13px;
+    top: 3px;
+    position: absolute;
+}
+
+body.myPhonePage #WithLocationTitle,
+body.myPhonePage #WithoutLocationTitle
+{
+	color: #333;
+}
+
+body.myPhonePage #MapWithoutLocation
+{
+    position: absolute;
+}
+
+body.myPhonePage #MapLabelBackground
+{
+    height: 27px;
+    width: 212px;
+    filter: alpha(opacity = 70);
+    opacity: 0.70;
+    position: absolute;
+}
+
+/* End MyPhone */
+
+/* Begin Account */
+body.accountPage #user
+{
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+body.accountPage #user h4
+{
+    margin-bottom: 6px;
+}
+
+body.accountPage #personalInfo,
+body.accountPage #billingInfo
+{
+    width: 273px;
+}
+
+body.accountPage #personalInfo
+{
+    float: left;
+}
+
+body.accountPage #billingInfo
+{
+    float: left;
+    margin-top: 10px;
+    margin-left: 31px;
+}
+
+body.accountPage #personalInfo li
+{
+    margin-top: 10px;
+}
+
+body.accountPage #preferredEmail
+{
+    margin-right: 3px;
+}
+
+body.accountPage #updateEmailLink
+{
+    margin-left: 10px;
+}
+
+body.accountPage #learnZune
+{
+    margin-left: 13px;
+}
+
+body.accountPage #phoneSettings
+{
+    clear: both;
+    float: left;
+    margin-top: 30px;
+	width: 100%;
+}
+
+/* End Account */
+
+/*** credit card page ***/
+body.my #pcsiframe
+{
+	width: 896px;
+}
+
+/*** purchases page ***/
+body.purchasesPage p.noApps
+{
+    width: 357px;
+}
+
+body.purchasesPage .purchaseError,
+body.purchasesPage .purchaseNoApps
+{
+	max-width:357px;
+}
+
+body.purchasesPage .purchaseError p,
+body.purchasesPage .purchaseNoApps p
+{
+	margin-bottom: 23px;
+}
+ 
+body.purchasesPage #reinstallInstructions
+{
+	width:100%;
+	float:left;
+	margin: 6px 0 16px 0;
+}
+
+body.purchasesPage #reinstallInstructions > *
+{
+	margin-top:5px;
+}
+
+body.purchasesPage #reinstallInstructions > a
+{
+	margin-top: 10px !important;
+	float:left;
+}
+    
+body.purchasesPage div#apps
+{
+    margin: 32px 0;
+	width: 100%;
+	float:left;
+}
+
+body.purchasesPage div#apps > ul.listApps > li
+{
+    border-bottom: 1px solid #ededed;
+	padding-top: 10px;
+    padding-bottom: 10px;
+	min-height:82px;
+	overflow:hidden;
+	text-align: left
+}
+
+body.purchasesPage div#apps > ul.headers > li
+{
+	border:none;
+	height: 20px;
+	overflow:hidden;
+}
+
+body.purchasesPage div#apps > ul.headers > li > div.namecategory
+{
+	width: 389px;
+	margin-right:10px;
+	float:left;
+	height:100%;
+}
+
+body.purchasesPage div#apps > ul.headers > li > div.date
+{
+	width: 100px;
+	margin-right:10px;
+	float:left;
+	height:100%;
+}
+
+body.purchasesPage div#apps > ul.listApps > li > div
+{
+	margin-right: 10px;
+}
+
+body.purchasesPage div#apps > ul.listApps > li > div
+{
+	float:left;
+	overflow:hidden;
+	height: 100%;
+}
+
+body.purchasesPage div#apps > ul.listApps > li > div.tile
+{
+    width: 49px;
+	margin-top:5px;
+}
+
+body.purchasesPage div#apps > ul.listApps > li > div.tile > div 
+{
+	background-color: #EEEEEE;
+    height: 49px;
+    vertical-align: text-top;
+    width: 49px;
+}
+
+body.purchasesPage div#apps > ul.listApps > li > div.info
+{
+    width: 330px;
+}
+
+body.purchasesPage div#apps > ul.listApps > li > div.info > div,
+body.purchasesPage div#apps > ul.listApps > li > div.info > span
+{
+	float:left;
+	width:100%;
+}
+
+body.purchasesPage div#apps > ul.listApps > li > div.info > div > a,
+body.purchasesPage div#apps > ul.listApps > li > div.date,
+body.purchasesPage div#apps > ul.listApps > li > div.license
+{
+	white-space: nowrap;
+}
+
+body.purchasesPage div#apps > ul.listApps > li > div.info > span
+{
+	margin-top: 5px;
+	min-height: 32px;
+}
+    
+body.purchasesPage div#apps > ul.listApps > li > div.date
+{
+    width: 100px;
+	height:72px;
+}
+
+body.purchasesPage div#apps > ul.listApps > li > div.license
+{
+	width: 126px;
+	text-align:right;
+	height:72px;
+}
+    
+body.purchasesPage div#apps > ul.listApps > li > div.action
+{
+    margin-right: 0 !important;
+    text-align: right;
+	width: 250px;
+}
+
+body.purchasesPage div#apps > ul.listApps > li > div.action .error
+{
+	color:#F47300 !important;
+}
+
+body.purchasesPage div#apps > ul.listApps > li > div.action > div.progressbar
+{
+	width:100%;
+	float: right;
+	margin-top: 7px;
+	text-align: right;
+}
+
+body.purchasesPage div#apps > ul.listApps > li > div.action > div.progressbar > .smallText
+{
+	float:right;
+	width:100%;
+}
+
+body.purchasesPage div#apps > ul.listApps > li > div.action > .progressbar .progress
+{
+	width: 126px;
+	height: 3px;
+	margin-top: 7px;
+	background-color: #ccc;
+	float:right;
+}
+
+body.purchasesPage div#apps > ul.listApps > li > div.action >  .progressbar .bar
+{
+	float:left;
+	height: 100%;
+	z-index: 2;
+}
+
+body.purchasesPage div#apps > ul.listApps > li > div.action > .reinstall.disabled
+{
+	color: #ccc !important;
+	cursor:default;
+}
+
+body.purchasesPage div#apps > ul.listApps > li > div.action > .smallText
+{
+	color: #333333;
+    float: left;
+    width: 100%;
+	margin-top: 2px;
+}
+
+body.purchasesPage div#moreApps
+{
+    float: left;
+	width: 100%;
+	margin-top: 10px;
+	text-align:right;
+}
+
+.popup h2
+{
+    margin-top: 2px;
+    clear: both;
+}
+
+.popup h2 a 
+{
+    outline: 0;
+}
+
+.popup p 
+{
+    margin-bottom: 20px;
+}
+
+.popup li 
+{
+    min-height: 20px;
+    padding-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.popup #smsSetup li
+{
+    padding-bottom: 9px;
+}
+
+.popup ul label 
+{
+    display: inline-block;
+    width: 152px;
+    clear: left;
+}
+
+.popup #confirmEmailInput, .popup #newEmailInput
+{
+    width: 234px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3px;
+}
+
+.popup #updateEmailError
+{
+    margin-top: -9px;
+}
+
+.popup div#form 
+{
+    clear: both;
+}
+
+.popup #smsSettings #form input.primaryAction[disabled]
+{
+    color: #999999 !important;
+}
+
+.popup #PhoneNumber
+{
+    width: 178px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3px;
+}
+
+.popup select#region
+{
+    width: 181px !important;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3px;
+}
+
+.popup #disclaimer 
+{
+    margin-top: 0px;  
+    margin-left: 0px;  
+}
+
+.popup #disclaimer input.checkbox
+{  
+    margin-right: 9px;
+    text-align: left;
+    display: block;
+    float: left;
+}
+
+.popup #disclaimer #disclaimerText
+{
+	cursor: pointer;
+    display: block;
+    float: left;
+    margin-bottom: 16px;    
+	width: 400px;
+}
+
+div#updatePhoneNumberPopup #PhoneNumber_PhoneNumber 
+{
+    padding: 0 7px 3px 7px;
+    width: 183px;
+    left: 0px;
+}  
+
+div#updatePhoneNumberPopup #smsSetup .phoneNumberValidationError
+{
+    display: block;
+    height: 32px;
+    margin-left: 149px;
+    margin-top: -16px;
+}
+
+#WipeBackupsOnRemove 
+{
+	margin-right: 4px;
+	vertical-align:top;
+}
+
+#WipeBackupsOnRemoveCheckboxLabel 
+{
+	width: 340px;
+	text-align: justify;
+}
+
